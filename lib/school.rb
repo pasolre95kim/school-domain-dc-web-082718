@@ -24,7 +24,7 @@ class School
 
   def sort
     @roster.each do |key, value|
-      value.sort #! replace existing value
+      value.sort! #! replace existing value
     end
   end
 
